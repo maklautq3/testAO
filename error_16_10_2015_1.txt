@@ -1,0 +1,10 @@
+
+
+ОШИБКА: COMException 
+Трассировка стека:    в System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   в System.Runtime.InteropServices.Marshal.ThrowExceptionForHR(Int32 errorCode)
+   в System.Management.ManagementObjectCollection.ManagementObjectEnumerator.MoveNext()
+   в SharedInterfaces.source.database.SqlFileStreamChecker.EnableFileStream(String instanceName, Boolean& restartRequired)
+   в SharedInterfaces.source.database.SqlFileStreamChecker.CheckFileStreamSupport()
+   в SharedInterfaces.source.database.SqlFileStreamChecker.TryEnable(Boolean showMessages)
+Версия ПО: 4.1.2.0 Дата: 16.10.2015 18:15:07
